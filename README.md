@@ -1,1 +1,6 @@
 # TA-Scheduling
+
+```
+make
+./run
+```
