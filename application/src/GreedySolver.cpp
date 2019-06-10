@@ -3,12 +3,12 @@
 #include "../../framework/headers/Logger.h"
 
 GreedySolver::GreedySolver(
-                            std::vector<Assistant> assistants,
-                            std::vector<Course> courses
-                          ) :
-                            assistants{assistants},
-                            courses{courses}
-                            { }
+    std::vector<Assistant> assistants,
+    std::vector<Course> courses
+    ) :
+    assistants{assistants},
+    courses{courses}
+    { }
 
 std::vector<Solution>
 GreedySolver::solve() {

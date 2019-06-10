@@ -3,32 +3,32 @@
 #include "../headers/Exception.h"
 #include "../headers/Logger.h"
 
-Course::Course() : code{""},
-                   instructorName{""},
-                   minTAHours{0},
-                   maxTAHours{0},
-                   minTACount{0},
-                   assignedHours{0} {
-                       Logger& logger = Logger::instance();
-                       logger.info("Course created without any parameters!");
-                   };
+Course::Course() :
+    code{""},
+    instructorName{""},
+    minTAHours{0},
+    maxTAHours{0},
+    minTACount{0},
+    assignedHours{0} {
+        Logger& logger = Logger::instance();
+        logger.info("Course created without any parameters!");
+    };
 
 Course::Course(
-                const std::string code,
-                const std::string instructorName,
-                uint minTAHours,
-                uint maxTAHours,
-                uint minTACount
-              )
-              : code{code},
-                instructorName{instructorName},
-                minTAHours{minTAHours},
-                maxTAHours{maxTAHours},
-                minTACount{minTACount},
-                assignedHours{0} {
-                    Logger& logger = Logger::instance();
-                    logger.info("Course created with cotr!");
-                };
+    const std::string code,
+    const std::string instructorName,
+    uint minTAHours,
+    uint maxTAHours,
+    uint minTACount
+    ) : code{code},
+    instructorName{instructorName},
+    minTAHours{minTAHours},
+    maxTAHours{maxTAHours},
+    minTACount{minTACount},
+    assignedHours{0} {
+        Logger& logger = Logger::instance();
+        logger.info("Course created with cotr!");
+    };
 
 int
 Course::assign(Assistant& assistant, bool dry = false) {
@@ -36,10 +36,10 @@ Course::assign(Assistant& assistant, bool dry = false) {
     const int remainingAvailability = assistant.maxCoursesToAssist - assistant.assistingCourses.size();
     const bool noMoreFreeHours = assistant.freeHours <= 0;
     const bool alreadyAssisted = (
-                                  std::find(assistant.assistingCourses.begin(),
-                                  assistant.assistingCourses.end(),
-                                  this->code) != assistant.assistingCourses.end()
-                                 );
+        std::find(assistant.assistingCourses.begin(),
+        assistant.assistingCourses.end(),
+        this->code) != assistant.assistingCourses.end()
+    );
     if (remainingAvailability > 0 || alreadyAssisted || !noMoreFreeHours) {
         const int remainingMinTAHours = minTAHours - assignedHours;
         if (remainingMinTAHours < 0) {
@@ -136,12 +136,13 @@ Course::build(std::vector<std::string> params) {
         throw exception;
     }
 
-    auto course = Course{_code,
-                         _instructorName,
-                         static_cast<uint>(_minTAHours),
-                         static_cast<uint>(_maxTAHours),
-                         static_cast<uint>(_minTACount)
-                         };
+    auto course = Course{
+        _code,
+        _instructorName,
+        static_cast<uint>(_minTAHours),
+        static_cast<uint>(_maxTAHours),
+        static_cast<uint>(_minTACount)
+    };
 
     msg << "Course updated with build!" << std::endl;
     msg << course << std::endl;

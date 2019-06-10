@@ -3,31 +3,31 @@
 #include "../headers/Exception.h"
 #include "../headers/Logger.h"
 
-Assistant::Assistant() : name{""},
-                         hoursToAssist{0},
-                         maxCoursesToAssist{0},
-                         prevAssistedCourses{std::vector<std::string>()},
-                         freeHours{0},
-                         assistingCourses{std::vector<std::string>()} {
-                             Logger& logger = Logger::instance();
-                             logger.info("Assistant created without any parameters!");
-                         };
+Assistant::Assistant() :
+    name{""},
+    hoursToAssist{0},
+    maxCoursesToAssist{0},
+    prevAssistedCourses{std::vector<std::string>()},
+    freeHours{0},
+    assistingCourses{std::vector<std::string>()} {
+        Logger& logger = Logger::instance();
+        logger.info("Assistant created without any parameters!");
+    };
 
 Assistant::Assistant(
-                      std::string name,
-                      ulong hoursToAssist,
-                      uint maxCoursesToAssist,
-                      std::vector<std::string> prevAssistedCourses
-                    )
-                    : name{name},
-                      hoursToAssist{hoursToAssist},
-                      maxCoursesToAssist{maxCoursesToAssist},
-                      prevAssistedCourses{prevAssistedCourses},
-                      freeHours{static_cast<int>(hoursToAssist)},
-                      assistingCourses{std::vector<std::string>()} {
-                          Logger& logger = Logger::instance();
-                          logger.info("Assistant created with cotr!");
-                      };
+    std::string name,
+    ulong hoursToAssist,
+    uint maxCoursesToAssist,
+    std::vector<std::string> prevAssistedCourses
+    ) : name{name},
+    hoursToAssist{hoursToAssist},
+    maxCoursesToAssist{maxCoursesToAssist},
+    prevAssistedCourses{prevAssistedCourses},
+    freeHours{static_cast<int>(hoursToAssist)},
+    assistingCourses{std::vector<std::string>()} {
+        Logger& logger = Logger::instance();
+        logger.info("Assistant created with cotr!");
+    };
 
 Assistant
 Assistant::build(std::vector<std::string> params) {
@@ -78,11 +78,12 @@ Assistant::build(std::vector<std::string> params) {
       _prevAssistedCourses.push_back(params.at(i));
     }
 
-    auto assistant = Assistant{ _name,
-                                static_cast<ulong>(_hoursToAssist),
-                                static_cast<uint>(_maxCoursesToAssist),
-                                _prevAssistedCourses
-                              };
+    auto assistant = Assistant{
+        _name,
+        static_cast<ulong>(_hoursToAssist),
+        static_cast<uint>(_maxCoursesToAssist),
+        _prevAssistedCourses
+    };
 
     msg << "Assistant updated with build!" << std::endl;
     msg << assistant << std::endl;

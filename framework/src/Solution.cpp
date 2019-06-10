@@ -6,18 +6,22 @@
 #include "../headers/Logger.h"
 #include "../headers/Solution.h"
 
-Solution::Solution() : course{Course{}},
-                       reservedAssistants{std::vector<std::pair<Assistant, int>>{}} {
-                           Logger& logger = Logger::instance();
-                           logger.info("Solution created without any parameters!");
-                       };
+Solution::Solution() :
+    course{Course{}},
+    reservedAssistants{std::vector<std::pair<Assistant, int>>{}} {
+        Logger& logger = Logger::instance();
+        logger.info("Solution created without any parameters!");
+    };
 
-Solution::Solution(Course course, std::vector<std::pair<Assistant, int>> reservedAssistants) :
-                course{course},
-                reservedAssistants{reservedAssistants} {
-                    Logger& logger = Logger::instance();
-                    logger.info("Solution created with cotr!");
-                };
+Solution::Solution(
+    Course course,
+    std::vector<std::pair<Assistant, int>> reservedAssistants
+    ) :
+    course{course},
+    reservedAssistants{reservedAssistants} {
+        Logger& logger = Logger::instance();
+        logger.info("Solution created with cotr!");
+    };
 
 void
 Solution::print() const {
