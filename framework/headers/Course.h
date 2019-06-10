@@ -14,6 +14,10 @@ public:
     Course build(std::vector<std::string>);
     friend std::ostream& operator<<(std::ostream&, const Course&);
     int assign(Assistant&, bool);
+    void commit(Assistant*, int, bool);
+    std::string getCode() const;
+    int getMinRequiredHours() const;
+    uint getMinTAHours() const;
     std::string _getMetaName() const;
     void print() const;
     // TODO: Do I really need these?

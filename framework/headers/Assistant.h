@@ -15,8 +15,12 @@ public:
 	Assistant(const std::string, const ulong, const uint, const std::vector<std::string>);
     Assistant build(std::vector<std::string>);
     friend std::ostream& operator<<(std::ostream&, const Assistant&);
+    friend std::ostream& operator<<(std::ostream&, const Assistant*);
     std::string _getMetaName() const;
     void print() const;
+    std::vector<std::string> getAssistingCourses() const;
+    std::vector<std::string> getPrevAssistedCourses() const;
+    int getFreeHours() const;
     // TODO: Do I really need these?
 	// Assistant(const Assistant& other);
 	// Assistant(Assistant&& other);

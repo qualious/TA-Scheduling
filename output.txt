@@ -1,0 +1,606 @@
+SOLUTIONS SO FAR: 
+0
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 10
+Reward: -100
+rewardTuple: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 30
+Reward: -105
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -105, 30
+assignedHours: 30
+Reward: -105
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -105, 30
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -105, 30
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -105, 30
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+maxTuple: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+assignedHours: 10
+Reward: -95
+rewardTuple: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+assignedHours: 10
+Reward: -90
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -90, 10
+assignedHours: 10
+Reward: -80
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -80, 10
+assignedHours: 10
+Reward: -85
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -85, 10
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+reward: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -90, 10
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -80, 10
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -85, 10
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -80, 10
+maxTuple: CS321, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -80
+assignedHours: 10
+Reward: -95
+rewardTuple: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+assignedHours: 10
+Reward: -95
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+assignedHours: 10
+Reward: -80
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -80, 10
+assignedHours: 10
+Reward: -85
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -85, 10
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+reward: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -80, 10
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -85, 10
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -80, 10
+maxTuple: CS409, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -80
+PRINTING MAXREWARDS: 
+maxReward: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+maxReward: CS321, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -80
+maxReward: CS409, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -80
+
+1
+2
+PRINTING MAXREWARDS AFTER SORT: 
+maxReward: CS321, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -80
+maxReward: CS409, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -80
+maxReward: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+3
+Commiting: CS321name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+10
+assistant.freeHours before 30
+assistant->freeHours after 20
+PRINTING reservedAssistants: 
+name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, 10
+course.getMinRequiredHours() 0
+cummulatedSoFar 10
+before erase course 3
+CS101, CS321, CS409, 
+before erase assistants3
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 
+after erase course 2
+CS101, CS409, 
+after erase assistants2
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 
+SOLUTIONS SO FAR: 
+1
+CS321, Baris, 10, 
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 10
+Reward: -100
+rewardTuple: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 30
+Reward: -105
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -105, 30
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -105, 30
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+maxTuple: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+assignedHours: 10
+Reward: -95
+rewardTuple: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+assignedHours: 10
+Reward: -95
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+assignedHours: 10
+Reward: -95
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+assignedHours: 10
+Reward: -85
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -85, 10
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+reward: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -95, 10
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -85, 10
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, -85, 10
+maxTuple: CS409, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -85
+PRINTING MAXREWARDS: 
+maxReward: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+maxReward: CS409, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -85
+
+1
+2
+PRINTING MAXREWARDS AFTER SORT: 
+maxReward: CS409, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+, 10, -85
+maxReward: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+3
+Commiting: CS409name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 30
+10
+assistant.freeHours before 30
+assistant->freeHours after 20
+PRINTING reservedAssistants: 
+name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, 10
+course.getMinRequiredHours() 0
+cummulatedSoFar 10
+before erase course 2
+CS101, CS409, 
+before erase assistants2
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 
+after erase course 1
+CS101, 
+after erase assistants1
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 
+SOLUTIONS SO FAR: 
+2
+CS321, Baris, 10, 
+CS409, Zeynep, 10, 
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 10
+Reward: -100
+rewardTuple: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -100, 10
+maxTuple: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+PRINTING MAXREWARDS: 
+maxReward: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+
+1
+2
+PRINTING MAXREWARDS AFTER SORT: 
+maxReward: CS101, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -100
+3
+Commiting: CS101name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+10
+assistant.freeHours before 10
+assistant->freeHours after 0
+PRINTING reservedAssistants: 
+name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 10
+course.getMinRequiredHours() 50
+cummulatedSoFar 10
+SOLUTIONS SO FAR: 
+2
+CS321, Baris, 10, 
+CS409, Zeynep, 10, 
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 0
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+maxTuple: CS101, name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, 20, -105
+PRINTING MAXREWARDS: 
+maxReward: CS101, name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, 20, -105
+
+1
+2
+PRINTING MAXREWARDS AFTER SORT: 
+maxReward: CS101, name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, 20, -105
+3
+Commiting: CS101name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+20
+assistant.freeHours before 20
+assistant->freeHours after 0
+PRINTING reservedAssistants: 
+name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 10
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, 20
+course.getMinRequiredHours() 40
+cummulatedSoFar 30
+SOLUTIONS SO FAR: 
+2
+CS321, Baris, 10, 
+CS409, Zeynep, 10, 
+assignedHours: 0
+assignedHours: 0
+assignedHours: 20
+Reward: -105
+rewardTuple: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, -105, 20
+maxTuple: CS101, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, 20, -105
+PRINTING MAXREWARDS: 
+maxReward: CS101, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, 20, -105
+
+1
+2
+PRINTING MAXREWARDS AFTER SORT: 
+maxReward: CS101, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+, 20, -105
+3
+Commiting: CS101name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 20
+20
+assistant.freeHours before 20
+assistant->freeHours after 0
+PRINTING reservedAssistants: 
+name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 10
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, 20
+name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, 20
+course.getMinRequiredHours() 40
+cummulatedSoFar 50
+SOLUTIONS SO FAR: 
+2
+CS321, Baris, 10, 
+CS409, Zeynep, 10, 
+assignedHours: 0
+assignedHours: 0
+assignedHours: 0
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 10
+Reward: -105
+rewardTuple: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+MAX: name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, -105, 10
+maxTuple: CS101, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -105
+PRINTING MAXREWARDS: 
+maxReward: CS101, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -105
+
+1
+2
+PRINTING MAXREWARDS AFTER SORT: 
+maxReward: CS101, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+, 10, -105
+3
+Commiting: CS101name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 10
+10
+assistant.freeHours before 10
+assistant->freeHours after 0
+PRINTING reservedAssistants: 
+name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 10
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, 20
+name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, 20
+name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 10
+course.getMinRequiredHours() 50
+cummulatedSoFar 60
+SOLUTIONS SO FAR: 
+2
+CS321, Baris, 10, 
+CS409, Zeynep, 10, 
+assignedHours: 0
+assignedHours: 0
+assignedHours: 0
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 20
+Reward: -110
+rewardTuple: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+assignedHours: 0
+reward: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+reward: name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+MAX: name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, -110, 20
+maxTuple: CS101, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, 20, -110
+PRINTING MAXREWARDS: 
+maxReward: CS101, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, 20, -110
+
+1
+2
+PRINTING MAXREWARDS AFTER SORT: 
+maxReward: CS101, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, 20, -110
+3
+Commiting: CS101name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+20
+assistant.freeHours before 20
+assistant->freeHours after 0
+PRINTING reservedAssistants: 
+name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 10
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, 20
+name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, 20
+name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 10
+name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 0
+, 20
+course.getMinRequiredHours() 40
+cummulatedSoFar 80
+before erase course 1
+CS101, 
+before erase assistants1
+name:Ahmet, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, name:Aytekin, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, name:Ebru, hoursToAssist: 20,maxCoursesToAssist: 3, freeHours: 0
+, name:Baris, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 0
+, name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, name:Hasan, hoursToAssist: 10,maxCoursesToAssist: 2, freeHours: 0
+, 
+after erase course 0
+
+after erase assistants0
+name:Zeynep, hoursToAssist: 30,maxCoursesToAssist: 3, freeHours: 20
+, 
+SOLUTIONS SO FAR: 
+3
+CS321, Baris, 10, 
+CS409, Zeynep, 10, 
+CS101, Aytekin, 10, Ahmet, 20, Ebru, 20, Hasan, 10, Baris, 20, 
+DONE!
+FOUND SOLUTIONS: 
+3
+CS321, Baris, 10, 
+CS409, Zeynep, 10, 
+CS101, Aytekin, 10, Ahmet, 20, Ebru, 20, Hasan, 10, Baris, 20, 

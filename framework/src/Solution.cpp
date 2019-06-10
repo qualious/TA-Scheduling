@@ -25,20 +25,33 @@ Solution::Solution(
 
 void
 Solution::print() const {
-    // std::cout << "Solution(" << std::endl << course.code << ", ";
-    // for (const auto &p : reservedAssistants) {
-    //     std::cout << std::endl << "Assistant: ";
-    //     std::cout << p.first << "Hours: ";
-    //     std::cout << p.second << ", " << std::endl;
-    // }
-    // std::cout << std::endl << "))" << std::endl;
-
     std::cout << course.code << ", ";
     for (const auto &p : reservedAssistants) {
         std::cout << p.first.name << ", " << p.second << ", ";
     }
     std::cout << std::endl;
 }
+
+std::string
+Solution::toString() const {
+    std::ostringstream ostrm;
+    ostrm << course.code << ", ";
+    for (const auto &p : reservedAssistants) {
+        ostrm << p.first.name << ", " << p.second << ", ";
+    }
+    return ostrm.str();
+}
+
+std::ostream& operator<<(std::ostream &ostrm, const Solution& solution) {
+    ostrm << solution.toString();
+    return ostrm;
+}
+
+std::ostream& operator<<(std::ostream &ostrm, const Solution* solution) {
+    ostrm << solution->toString();
+    return ostrm;
+}
+
 
 std::string
 Solution::_getMetaName() const { return _metaName; }

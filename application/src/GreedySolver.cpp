@@ -22,6 +22,7 @@ GreedySolver::solve() {
                 auto pair = std::pair<Assistant, int>{assistant, assignedHours};
                 reservedAssistants.push_back(pair);
                 std::ostringstream msg;
+                msg << "GreedySolver: " << std::endl;
                 msg << "Assigned Assistant: " << assistant << std::endl;
                 msg << "For Course: " << course << std::endl;
                 msg << "For " << assignedHours << " hours" << std::endl;
@@ -32,12 +33,6 @@ GreedySolver::solve() {
         // Do something here?
         auto solution = Solution{course, reservedAssistants};
         solutions.push_back(solution);
-    }
-
-    std::cout << "FOUND SOLUTIONS: " << std::endl;
-
-    for (auto solution : solutions) {
-        solution.print();
     }
 
     return solutions;

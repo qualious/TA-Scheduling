@@ -93,24 +93,21 @@ Assistant::build(std::vector<std::string> params) {
     return assistant;
 }
 
-std::ostream& operator<<(std::ostream &ostrm, const Assistant &assistant) {
+std::ostream& operator<<(std::ostream &ostrm, const Assistant& assistant) {
     ostrm << std::endl;
-    ostrm << "name:" << assistant.name << ",";
-    // ostrm << "hoursToAssist: " << assistant.hoursToAssist << ",";
-    // ostrm << "maxCoursesToAssist: " << assistant.maxCoursesToAssist << std::endl;
-    ostrm << "prevAssistedCourses: ";
-    std::copy(
-      assistant.prevAssistedCourses.begin(),
-      assistant.prevAssistedCourses.end(),
-      std::ostream_iterator<std::string>(ostrm, ",")
-    );
-    ostrm << "assistingCourses: ";
-    std::copy(
-      assistant.assistingCourses.begin(),
-      assistant.assistingCourses.end(),
-      std::ostream_iterator<std::string>(ostrm, ",")
-    );
+    ostrm << "name:" << assistant.name << ", ";
+    ostrm << "hoursToAssist: " << assistant.hoursToAssist << ",";
+    ostrm << "maxCoursesToAssist: " << assistant.maxCoursesToAssist << ", ";
+    ostrm << "freeHours: " << assistant.freeHours << std::endl;
+    return ostrm;
+}
+
+std::ostream& operator<<(std::ostream &ostrm, const Assistant* assistant) {
     ostrm << std::endl;
+    ostrm << "name:" << assistant->name << ", ";
+    ostrm << "hoursToAssist: " << assistant->hoursToAssist << ",";
+    ostrm << "maxCoursesToAssist: " << assistant->maxCoursesToAssist << ", ";
+    ostrm << "freeHours: " << assistant->freeHours << std::endl;
     return ostrm;
 }
 
@@ -118,6 +115,15 @@ void
 Assistant::print() const {
     std::cout << "Assistant(" << name << ")" << std::endl;
 }
+
+std::vector<std::string>
+Assistant::getAssistingCourses() const { return assistingCourses; }
+
+std::vector<std::string>
+Assistant::getPrevAssistedCourses() const { return prevAssistedCourses; }
+
+int
+Assistant::getFreeHours() const { return freeHours; }
 
 std::string
 Assistant::_getMetaName() const { return _metaName; }

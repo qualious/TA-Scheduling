@@ -79,11 +79,11 @@ public:
     }
 
     void writeToFile(const std::string filename) {
-        std::ofstream file(filename);
-        auto derived = static_cast<Derived*>(this);
+        std::ofstream file;
+        file.open(filename, std::ios_base::app);
         if (file.is_open()) {
             try {
-                file << derived << std::endl;
+                file << static_cast<Derived*>(this)->toString() << std::endl;
             } catch(std::exception& e) {
                 std::ostringstream msg;
                 msg << "You have to override operator<< in class :";

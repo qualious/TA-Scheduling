@@ -12,6 +12,9 @@ public:
 	Solution();
 	Solution(Course, std::vector<std::pair<Assistant, int>>);
 	std::string _getMetaName() const;
+    friend std::ostream& operator<<(std::ostream&, const Solution&);
+    friend std::ostream& operator<<(std::ostream&, const Solution*);
+    std::string toString() const;
     void print() const;
 	// TODO: Do I really need these?
 	// Solution(const Solution& other);

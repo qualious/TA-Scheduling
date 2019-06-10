@@ -65,13 +65,19 @@ Course::assign(Assistant& assistant, bool dry = false) {
         }
     }
     if (!dry && (this->assignedHours + hoursToAssist) <= this->maxTAHours) {
-        this->assignedHours += hoursToAssist;
-        assistant.freeHours -= hoursToAssist;
-        if (!alreadyAssisted && hoursToAssist > 0) {
-            assistant.assistingCourses.push_back(this->code);
-        }
+        commit(&assistant, hoursToAssist, alreadyAssisted);
     }
+    // std::cout << "Returning: " << hoursToAssist << std::endl;
     return hoursToAssist;
+}
+
+void
+Course::commit(Assistant* assistant, int hoursToAssist, bool alreadyAssisted) {
+    this->assignedHours += hoursToAssist;
+    assistant->freeHours -= hoursToAssist;
+    if (!alreadyAssisted && hoursToAssist > 0) {
+        assistant->assistingCourses.push_back(this->code);
+    }
 }
 
 void
@@ -154,13 +160,22 @@ Course::build(std::vector<std::string> params) {
 }
 
 std::ostream& operator<<(std::ostream &ostrm, const Course &course) {
-    ostrm << course.code << ",";
-    ostrm << course.instructorName << ",";
-    ostrm << course.minTAHours << ",";
-    ostrm << course.maxTAHours << ",";
-    ostrm << course.minTACount << std::endl;
+    ostrm << course.code;// << std::endl;
+    // ostrm << course.instructorName << ",";
+    // ostrm << course.minTAHours << ",";
+    // ostrm << course.maxTAHours << ",";
+    // ostrm << course.minTACount << std::endl;
     return ostrm;
 }
+
+std::string
+Course::getCode() const { return code; }
+
+int
+Course::getMinRequiredHours() const { return minTAHours - assignedHours; }
+
+uint
+Course::getMinTAHours() const { return minTAHours; }
 
 std::string
 Course::_getMetaName() const { return _metaName; }
