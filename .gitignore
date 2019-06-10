@@ -36,3 +36,7 @@
 
 # Executable
 run
+
+# Report
+*.pages
+*.pdf

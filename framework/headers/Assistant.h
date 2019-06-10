@@ -4,6 +4,8 @@
 
 #include <vector>
 #include <ostream>
+#include <iterator>
+#include <algorithm>
 
 #include "../src/Data.cpp"
 
