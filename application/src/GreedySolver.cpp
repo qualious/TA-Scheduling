@@ -17,22 +17,16 @@ GreedySolver::solve() {
     for (auto course : courses) {
         std::vector<std::pair<Assistant, int>> reservedAssistants{};
         for (Assistant& assistant : assistants) {
-            std::cout << "=============================================" << std::endl;
-            std::cout << "Assistant: " << assistant << "Course :" << course << std::endl;
             int assignedHours = course.assign(assistant, false);
             if (assignedHours > 0) {
                 auto pair = std::pair<Assistant, int>{assistant, assignedHours};
                 reservedAssistants.push_back(pair);
-
                 std::ostringstream msg;
                 msg << "Assigned Assistant: " << assistant << std::endl;
                 msg << "For Course: " << course << std::endl;
                 msg << "For " << assignedHours << " hours" << std::endl;
                 logger.info(msg.str());
             }
-            std::cout << "After assignment, my assistant is: " << std::endl;
-            std::cout << assistant << std::endl;
-            std::cout << "=============================================" << std::endl;
         }
         // TODO: don't ignore not fully assigned courses?
         // Do something here?
